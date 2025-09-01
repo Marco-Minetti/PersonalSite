@@ -171,7 +171,7 @@ $ contact
       You can view or download my full&nbsp;<span class="text-[rgb(var(--accent))] font-medium">Resume</span>&nbsp;below.
     </p>
     <div class="mt-6 flex justify-center">
-        <a href="/cv" class="btn-geo btn-geo--primary">
+        <a href="/portfolio/cv" class="btn-geo btn-geo--primary">
           <span class="btn-geo__edge" aria-hidden="true"></span>
           <span class="tracking-wide">View Resume</span>
         </a>
