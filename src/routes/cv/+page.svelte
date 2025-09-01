@@ -1,6 +1,6 @@
 <script lang="ts">
 
-  const pdfHref = `/resume/Marco-Minetti-CV.pdf`;
+  const pdfHref = `/PersonalSite/static/resume/Marco-Minetti-CV.pdf`;
 
   let copied = false;
   const plainText = `
