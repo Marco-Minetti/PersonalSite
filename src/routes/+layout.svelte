@@ -5,6 +5,9 @@
   import { onMount } from 'svelte';
   import AccentPicker from '$lib/AccentPicker.svelte';
   import '../app.css';
+
+  export const ssr = false;       // client-side routing
+  export const prerender = true;  // emit static files
   
   onMount(() => {
     try {
