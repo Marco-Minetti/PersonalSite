@@ -88,7 +88,7 @@ Multivariable Calculus, Programming II (Java), Systems in C, Data Structures, Co
   <!-- Header actions -->
   <header class="sticky top-0 z-40 bg-black/70 backdrop-blur border-b border-neutral-900">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="/" class="btn-slide">← Back</a>
+      <a href="/PersonalSite" class="btn-slide">← Back</a>
       <div class="flex items-center gap-3">
         <a href={pdfHref} download="Marco-Minetti-Resume.pdf" rel="external" class="btn-slit">Download PDF</a>
         <button on:click={copyAll} class="btn-underline">
@@ -246,7 +246,7 @@ Multivariable Calculus, Programming II (Java), Systems in C, Data Structures, Co
           <button on:click={copyAll} class="btn-underline">
             {#if copied}Copied!{:else}Copy as text{/if}
           </button>
-          <a href="/" class="btn-slide"> Back to site</a>
+          <a href="/PersonalSite" class="btn-slide"> Back to site</a>
         </div>
     </div>
   </section>
