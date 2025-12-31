@@ -215,7 +215,7 @@ Multivariable Calculus, Programming II (Java), Systems in C, Data Structures, Co
 
             <!-- Research Experience -->
             <section class="mt-7 leading-relaxed text-[15px] text-neutral-200 skin-checker">
-              <h2 class="text-[rgb(var(--accent))] font-semibold tracking-wide uppercase text-xs">Work Experience</h2>
+              <h2 class="text-[rgb(var(--accent))] font-semibold tracking-wide uppercase text-xs">Research Experience</h2>
               <div class="mt-2 text-neutral-300 space-y-4">
                 <div>
                   <p class="text-white font-medium">Undergraduate Researcher (Fall 2025 – present)</p>
