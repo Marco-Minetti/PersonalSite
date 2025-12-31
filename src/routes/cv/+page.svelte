@@ -34,6 +34,11 @@ Links Management & Technology – Lecce (Apulia), Italy
 • Delivered front- and back-end features
 • Implemented customer functionalities with Vue.js
 
+RESEARCH EXPERIENCE
+Undergraduate Researcher - Machine Learning, Purdue University Northwest, Spring 2025 to Present
+Researching mathematical foundations of neural network training and backpropagation
+Applying multivariable calculus and gradient descent in Python experiments
+
 PROJECT WORK
 Trader Analyzer — C Project (Spring 2025)
 • Built real-time trading analysis tool in C
