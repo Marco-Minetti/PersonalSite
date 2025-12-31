@@ -213,6 +213,21 @@ Multivariable Calculus, Programming II (Java), Systems in C, Data Structures, Co
               </div>
             </section>
 
+            <!-- Research Experience -->
+            <section class="mt-7 leading-relaxed text-[15px] text-neutral-200 skin-checker">
+              <h2 class="text-[rgb(var(--accent))] font-semibold tracking-wide uppercase text-xs">Work Experience</h2>
+              <div class="mt-2 text-neutral-300 space-y-4">
+                <div>
+                  <p class="text-white font-medium">Undergraduate Researcher (Fall 2025 – present)</p>
+                  <p class="text-neutral-400">Machine Learning - Purdue University Northwest</p>
+                  <ul class="list-disc list-inside mt-1">
+                    <li>Researching mathematical foundations of neural network training and backpropagation</li>
+                    <li>Applying multivariable calculus and gradient descent in Python experiments</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
             <!-- PROJECT WORK -->
             <section class="mt-7 leading-relaxed text-[15px] text-neutral-200 skin-checker">
               <h2 class="text-[rgb(var(--accent))] font-semibold tracking-wide uppercase text-xs">Project Work</h2>
