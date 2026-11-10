@@ -3,6 +3,41 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#05060a" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300..800&family=JetBrains+Mono:wght@400..700&family=Space+Grotesk:wght@400..700&display=swap"
+			rel="stylesheet"
+		/>
+		<script>
+			// Runs before first paint: mark that scripts work (scroll reveals start hidden only then)
+			// and restore the saved accent colour. Keep in sync with src/lib/accent.ts.
+			(function () {
+				var d = document.documentElement;
+				d.classList.add('js');
+				setTimeout(function () {
+					if (!window.__hydrated) d.classList.remove('js');
+				}, 6000);
+				try {
+					var h = localStorage.getItem('accentHex');
+					var m = h && /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(h);
+					if (!m) return;
+					var r = parseInt(m[1], 16),
+						g = parseInt(m[2], 16),
+						b = parseInt(m[3], 16);
+					var lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+					var k = lum < 120 ? ((120 - lum) / 120) * 0.75 : 0;
+					var mix = function (c) {
+						return Math.round(c + (255 - c) * k);
+					};
+					d.style.setProperty('--accent', r + ', ' + g + ', ' + b);
+					d.style.setProperty('--accent-ink', mix(r) + ', ' + mix(g) + ', ' + mix(b));
+					d.style.setProperty('--on-accent', lum > 110 ? '#04121a' : '#ffffff');
+				} catch (e) {}
+			})();
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
