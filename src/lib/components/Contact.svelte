@@ -67,7 +67,11 @@
 
 <footer class="foot">
 	<div class="wrap row">
-		<p>© {new Date().getFullYear()} Marco Minetti · Built with SvelteKit + Tailwind</p>
+		<p>
+			© {new Date().getFullYear()} Marco Minetti · Built with SvelteKit + Tailwind · 3D laptop model
+			from the
+			<a href="https://github.com/pmndrs/examples" target="_blank" rel="noopener">pmndrs examples</a>
+		</p>
 		<a href="#top">Back to top <span aria-hidden="true">↑</span></a>
 	</div>
 </footer>

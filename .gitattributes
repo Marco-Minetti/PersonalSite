@@ -1,0 +1,6 @@
+# Never convert line endings in binary files (a résumé PDF or a 3D model would be corrupted)
+*.pdf binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.glb binary
